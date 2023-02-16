@@ -1,0 +1,29 @@
+.container {
+    width: 84%;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.contact-page {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Arial Black';
+    font-weight: 900;
+}
+
+.send-button {
+    justify-self: start;
+    padding: 15px 30px;
+    border: solid 1px currentColor;
+    font-family: serif;
+    font-size: 16px;
+    background-color: blue;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    opacity: 0.7;
+}

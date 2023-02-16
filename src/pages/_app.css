@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.App {
+    text-align: center;
+}
+
+.shop-title {
+    text-align: center;
+    background-color: black;
+}
+
+.shop-image {
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 80px;
+}
+
+
+.under-line1 {
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.menu-area {
+    font-family: 'Arial Black';
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    color: white;
+}
+
+.border-lineno {
+    padding: 2px 8px;
+}
+
+.border-lineno:hover {
+    text-decoration: underline;
+}
+
+.border-line {
+    border-left: 1px solid #000000;
+    padding: 2px 8px;
+    color: white;
+}
+
+.border-line:hover {
+    text-decoration: underline;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #dddddd;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-weight: normal;
+    outline: none;
+    color: currentColor;
+    appearance: none;
+    border-radius: 0;
+    resize: none;
+}
+
+label {
+    font-family: 'Arial Black';
+}
