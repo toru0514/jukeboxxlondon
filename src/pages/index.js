@@ -38,7 +38,7 @@ function HomePage () {
           <div className={cx('view-area')}>
             <a className={cx('view-more')}
                href="/aboutus"
-               target="_blank"
+               target="_self"
                rel="noreferrer"
             >VIEW MORE</a>
           </div>
@@ -61,7 +61,7 @@ function HomePage () {
         <div className={cx('view-area')}>
           <a className={cx('view-more')}
              href="/product"
-             target="_blank"
+             target="_self"
              rel="noreferrer"
           >VIEW MORE</a>
         </div>
@@ -89,7 +89,7 @@ function HomePage () {
         <div className={cx('view-area')}>
           <a className={cx('contact-view')}
              href="/contact"
-             target="_blank"
+             target="_self"
              rel="noreferrer"
           >✉️CONTACT PAGE</a>
         </div>
