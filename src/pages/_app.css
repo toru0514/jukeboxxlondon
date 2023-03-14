@@ -8,14 +8,20 @@ body {
 }
 
 .shop-title {
-    text-align: center;
+    text-align: left;
     background-color: black;
 }
 
 .shop-image {
     margin-top: 15px;
-    margin-left: 20px;
+    margin-left: 3px;
     height: 60px;
+}
+
+.icon-image {
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 45px;
 }
 
 

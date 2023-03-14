@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Link } from '../components/Link'
-import { shopTitle } from '../data'
+import { shopIcons, shopTitle } from '../data'
 import './_app.css'
 import '../assets/styles/reset.css'
 
@@ -34,6 +34,20 @@ export default function MyApp ({ Component, pageProps }) {
             >
               <img
                 className="shop-image"
+                src={image.image}
+                alt={image.name}
+              />
+            </a>
+          ))}
+          {shopIcons.map((image) => (
+            <a
+              key={image.id}
+              href={image.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="icon-image"
                 src={image.image}
                 alt={image.name}
               />
