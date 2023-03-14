@@ -1,7 +1,8 @@
 import React from 'react'
 import './Silder.module.css'
-import leftArrow from './icons/left-arrow.svg'
-import rightArrow from './icons/right-arrow.svg'
+
+const leftArrow = '/images/left-arrow.svg'
+const rightArrow = '/images/right-arrow.svg'
 
 export default function BtnSlider ({ direction, moveSlide }) {
   return (

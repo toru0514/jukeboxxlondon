@@ -27,16 +27,15 @@ export default function Slider () {
   }
 
   return (
-    <div>
+    <div className="container-slider">
       {dataSlider.map((obj, index) => {
         return (
           <div
             key={obj.id}
             className={slideIndex === index + 1 ? 'slide active-anim' : 'slide'}
           >
-            {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
             <img
-              src={process.env.PUBLIC_URL + `/images/slideimg${index + 1}.jpg`}
+              src={obj.image}
               alt={obj.name}
             />
           </div>
