@@ -1,6 +1,5 @@
 import styles from './index.module.css'
 import classNames from 'classnames/bind'
-import { Link } from '../components/Link'
 
 const cx = classNames.bind(styles)
 
@@ -11,7 +10,8 @@ function HomePage () {
         <div className={cx('home-title')}>
           <img
             className={cx('title-image')}
-            src={'/images/IMG_5643_mod.jpg'}/>
+            src={'/images/IMG_5643_mod.jpg'}
+            alt="image"/>
           <p className={cx('title-text')}>
             JUKEBOXX LONDON
           </p>
@@ -25,7 +25,8 @@ function HomePage () {
           </p>
           <img
             className={cx('about-image')}
-            src={'/images/aboutus.jpeg'}/>
+            src={'/images/aboutus.jpeg'}
+            alt="image"/>
           <p className={cx('about-comment')}>
             私たちは、ROCKERS文化を土台とした、<br/>
             ライダースジャケットのカスタムブランドです。
@@ -54,7 +55,8 @@ function HomePage () {
         <div className={cx('product-image-area')}>
           <img
             className={cx('product-image')}
-            src={'/images/sample_back.png'}/>
+            src={'/images/sample_back.png'}
+            alt="image"/>
         </div>
         <div className={cx('view-area')}>
           <a className={cx('view-more')}
@@ -70,7 +72,8 @@ function HomePage () {
           <div className={cx('gallery-image-area')}>
             <img
               className={cx('gallery-image')}
-              src={'/images/gallery.jpg'}/>
+              src={'/images/gallery.jpg'}
+              alt="image"/>
           </div>
         </div>
         <div className={cx('contact-area')}>
@@ -93,7 +96,8 @@ function HomePage () {
         <div className={cx('contact-image-area')}>
           <img
             className={cx('contact-image')}
-            src={'/images/label_image.JPG'}/>
+            src={'/images/label_image.JPG'}
+            alt="image"/>
         </div>
       </div>
     </>
