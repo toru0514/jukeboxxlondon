@@ -76,3 +76,21 @@ input, textarea {
 label {
     font-family: 'Arial Black';
 }
+
+.footer-icon-image {
+    width: 40px;
+}
+
+.twitter-image {
+    margin-bottom: 2px;
+    margin-left: 8px;
+}
+
+.footer-icon {
+    margin-top: 10px;
+}
+
+.copyright {
+    margin-top: 10px;
+    text-align: center;
+}

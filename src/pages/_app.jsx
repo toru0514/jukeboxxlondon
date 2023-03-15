@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Link } from '../components/Link'
-import { shopIcons, shopTitle } from '../data'
+import { footerIcons, shopIcons, shopTitle } from '../data'
 import './_app.css'
 import '../assets/styles/reset.css'
 
@@ -62,6 +62,19 @@ export default function MyApp ({ Component, pageProps }) {
         <p className="border-line"><Link to="/contact">Contact</Link></p>
       </div>
       <div className="under-line1"/>
+      <div className="footer-icon">
+        {footerIcons.map((link) => (
+          <Link key={link.id} to={link.url} external>
+            <img
+              className={`footer-icon-image ${link.id}-image`}
+              src={link.image}
+              alt={link.name}/>
+          </Link>
+        ))}
+      </div>
+      <div className="copyright">
+        <p>&copy;{new Date().getFullYear()} JUKEBOXX LONDON</p>
+      </div>
     </>
   )
 }
