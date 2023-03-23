@@ -1,0 +1,122 @@
+.title-com {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.about-comment {
+    padding-top: 16px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.product-title {
+    padding-top: 16px;
+    padding-bottom: 22px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.back-image {
+    margin-left: 23px;
+    height: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px white;
+}
+
+.image-areaA {
+    display: flex;
+}
+
+.back-area {
+    position: relative
+}
+
+.position-comment {
+    width: 390px;
+    font-size: 22px;
+    position: absolute;
+    bottom: 0%;
+    left: 135px;
+    transform: translate(-27%, 0%);
+}
+
+.image-comment {
+    width: 390px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 89%;
+    left: 234px;
+    transform: translate(-27%, 0%);
+}
+
+.front-area {
+    position: relative
+}
+
+.front-image {
+    margin-left: 23px;
+    height: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px white;
+}
+
+.image-areaB {
+    margin-top: 23px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.side-area {
+    position: relative
+}
+
+.side-image {
+    margin-left: 23px;
+    height: 160px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border: solid 1px white;
+}
+
+.name-area {
+    position: relative
+}
+
+.name-image {
+    margin-left: 23px;
+    width: 160px;
+}
+
+.name-comment {
+    width: 390px;
+    font-size: 14px;
+    position: absolute;
+    bottom: -28%;
+    left: 0px;
+    transform: translate(-27%, 0%);
+}
+
+.arrow-area {
+    color: white;
+    width: 390px;
+    font-size: 50px;
+    position: absolute;
+    bottom: -91%;
+    left: 20px;
+    /*transform: translate(-27%, 0%);*/
+    transform: rotate(45deg)
+}
+
+.basic-price {
+    font-size: 20px;
+    text-align: center;
+}
+
+.custom-price {
+    font-size: 20px;
+    text-align: center;
+}
