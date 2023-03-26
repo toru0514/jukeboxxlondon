@@ -30,14 +30,14 @@ body {
 .under-line1 {
     border: 1px solid;
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .menu-area {
-    font-family: 'Arial Black';
-    font-size: 22px;
+    font-size: 12px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     display: flex;
     color: white;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .border-line {
-    border-left: 1px solid #000000;
+    border-left: 1px solid white;
     padding: 2px 8px;
     color: white;
 }
@@ -90,9 +90,11 @@ label {
 
 .footer-icon {
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .copyright {
     margin-top: 10px;
+    margin-bottom: 30px;
     text-align: center;
 }
