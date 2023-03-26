@@ -23,7 +23,7 @@ const productPage = () => {
           <img
             className={cx('back-image')}
             src={'/images/product_image/ridersimage_back.png'}
-            alt="image"/>
+            alt="raiders-black"/>
           <p className={cx('position-comment')}>
             BACK
           </p>
@@ -35,7 +35,7 @@ const productPage = () => {
           <img
             className={cx('front-image')}
             src={'/images/product_image/ridersimage_front.png'}
-            alt="image"/>
+            alt="front"/>
           <p className={cx('position-comment')}>
             FRONT
           </p>
@@ -49,7 +49,7 @@ const productPage = () => {
           <img
             className={cx('side-image')}
             src={'/images/product_image/ridersimage_side.png'}
-            alt="image"/>
+            alt="side"/>
           <p className={cx('position-comment')}>
             SIDE
           </p>
@@ -61,7 +61,7 @@ const productPage = () => {
           <img
             className={cx('name-image')}
             src={'/images/product_image/ridersimage_name.JPG'}
-            alt="image"/>
+            alt="name"/>
           <p className={cx('name-comment')}>
             ここには「JUKEBOXXLONDON」もしくは<br/>
             ご希望の文字を入力可能です ※MAX14文字程度
@@ -89,7 +89,7 @@ const productPage = () => {
         <img
           className={cx('jblbm-image')}
           src={'/images/jblxbm.png'}
-          alt="image"/>
+          alt="jblxbm"/>
         <p>JUKEBOXX LONDON × BLACK MARKET</p>
       </div>
       <div className={cx('raiders-comment')}>
@@ -102,7 +102,7 @@ const productPage = () => {
         <img
           className={cx('size-image')}
           src={'/images/sizelist.png'}
-          alt="image"/>
+          alt="sizelist"/>
         <p className={cx('size-comment')}>
           ※実際の商品と表記サイズには数cmの個体差が生じる場合がございます
         </p>
@@ -111,23 +111,23 @@ const productPage = () => {
           <img
             className={cx('color-image')}
             src={'/images/product_image/black.png'}
-            alt="image"/>
+            alt="black"/>
           <img
             className={cx('color-image')}
             src={'/images/product_image/red.png'}
-            alt="image"/>
+            alt="red"/>
           <img
             className={cx('color-image')}
             src={'/images/product_image/navy.png'}
-            alt="image"/>
+            alt="navy"/>
           <img
             className={cx('color-image')}
             src={'/images/product_image/purple.png'}
-            alt="image"/>
+            alt="purple"/>
           <img
             className={cx('color-image')}
             src={'/images/product_image/turquoise.png'}
-            alt="image"/>
+            alt="turquoise"/>
         </div>
       </div>
     </div>
