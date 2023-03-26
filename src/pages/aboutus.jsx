@@ -85,7 +85,7 @@ const aboutusPage = () => {
         <img
           className={cx('contact-image')}
           src={'/images/label_image.JPG'}
-          alt="image"/>
+          alt="contact"/>
       </div>
     </div>
   )

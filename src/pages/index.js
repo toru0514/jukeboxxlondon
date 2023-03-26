@@ -11,7 +11,7 @@ function HomePage () {
           <img
             className={cx('title-image')}
             src={'/images/IMG_5643_mod.jpg'}
-            alt="image"/>
+            alt="jbl"/>
           <p className={cx('title-text')}>
             JUKEBOXX LONDON
           </p>
@@ -26,7 +26,7 @@ function HomePage () {
           <img
             className={cx('about-image')}
             src={'/images/aboutus.jpeg'}
-            alt="image"/>
+            alt="aboutus"/>
           <p className={cx('about-comment')}>
             私たちは、ROCKERS文化を土台とした、<br/>
             ライダースジャケットのカスタムブランドです。
@@ -56,7 +56,7 @@ function HomePage () {
           <img
             className={cx('product-image')}
             src={'/images/sample_back.png'}
-            alt="image"/>
+            alt="product"/>
         </div>
         <div className={cx('view-area')}>
           <a className={cx('view-more')}
@@ -73,7 +73,7 @@ function HomePage () {
             <img
               className={cx('gallery-image')}
               src={'/images/gallery.jpg'}
-              alt="image"/>
+              alt="gallery"/>
           </div>
         </div>
         <div>
@@ -97,7 +97,7 @@ function HomePage () {
           <img
             className={cx('contact-image')}
             src={'/images/label_image.JPG'}
-            alt="image"/>
+            alt="contact"/>
         </div>
       </div>
     </>
