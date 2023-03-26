@@ -35,7 +35,7 @@
 }
 
 .position-comment {
-    width: 390px;
+    width: 375px;
     font-size: 22px;
     position: absolute;
     bottom: 0;
@@ -44,7 +44,7 @@
 }
 
 .image-comment {
-    width: 390px;
+    width: 375px;
     font-size: 14px;
     position: absolute;
     bottom: 89%;
@@ -92,17 +92,17 @@
 }
 
 .name-comment {
-    width: 390px;
+    width: 375px;
     font-size: 14px;
     position: absolute;
     bottom: -28%;
     left: 0;
-    transform: translate(-27%, 0%);
+    transform: translate(-33%, 0%);
 }
 
 .arrow-area {
     color: white;
-    width: 390px;
+    width: 375px;
     font-size: 50px;
     position: absolute;
     bottom: -91%;
@@ -175,7 +175,7 @@
 
 .color-image {
     margin-top: 10px;
-    margin-right: 7px;
+    margin-right: 3px;
     margin-bottom: 15px;
     width: 60px;
     border: solid 1px white;

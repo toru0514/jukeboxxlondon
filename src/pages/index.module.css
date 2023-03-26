@@ -3,7 +3,7 @@
 }
 
 .title-text {
-    width: 390px;
+    width: 375px;
     font-size: 28px;
     position: absolute;
     top: 25%;
@@ -12,11 +12,12 @@
 }
 
 .title-image {
-    width: 390px;
+    width: 375px;
+    margin-left: 30px;
 }
 
 .title-comment {
-    width: 390px;
+    width: 375px;
     font-size: 15px;
     position: absolute;
     bottom: 18%;

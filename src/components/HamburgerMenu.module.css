@@ -1,7 +1,7 @@
 .HamburgerMenu {
     font-size: 20px;
     color: white;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     flex-direction: column;
     padding: 5rem 2rem;
