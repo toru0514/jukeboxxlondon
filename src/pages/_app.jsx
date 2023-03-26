@@ -23,7 +23,7 @@ export default function MyApp ({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="/logo192.png"/>
         <link rel="manifest" href="/manifest.json"/>
       </Head>
-      <div className="home-page">
+      <header className="home-page">
         <div className="shop-title">
           {shopTitle.map((image) => (
             <a
@@ -54,8 +54,10 @@ export default function MyApp ({ Component, pageProps }) {
             </a>
           ))}
         </div>
-      </div>
-      <Component {...pageProps} />
+      </header>
+      <main>
+        <Component {...pageProps} />
+      </main>
       <div className="under-line1"/>
       <div className="menu-area">
         <p className="border-lineno"><Link to="/">HOME</Link></p>
