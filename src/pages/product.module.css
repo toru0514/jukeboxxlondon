@@ -180,3 +180,38 @@
     width: 60px;
     border: solid 1px white;
 }
+
+.store-comment {
+    font-size: 15px;
+    padding: 20px;
+}
+
+.bm-image {
+    width: 220px;
+    display: block;
+    margin: auto;
+}
+
+.store-info {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact-view {
+    font-size: 18px;
+    border: solid 1px white;
+    padding: 10px 25px;
+}
+
+.contact-button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.map-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: auto;
+    width: 350px;
+}
