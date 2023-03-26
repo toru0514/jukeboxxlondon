@@ -73,7 +73,7 @@ export default function MyApp ({ Component, pageProps }) {
       <div className="under-line1"/>
       <div className="menu-area">
         <p className="border-lineno"><Link to="/">HOME</Link></p>
-        <p className="border-line"><Link to="/aboutus">ABOUT US</Link></p>
+        <p className="border-line"><Link to="/aboutus">ABOUT</Link></p>
         <p className="border-line"><Link to="/product">PRODUCT</Link></p>
         <p className="border-line"><Link to="/store">STORE</Link></p>
         <p className="border-line"><Link to="/contact">CONTACT</Link></p>
