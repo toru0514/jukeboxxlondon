@@ -1,0 +1,83 @@
+.title-com {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.about-us {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 6px;
+    margin: 20px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.product-us {
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.product-image-area {
+    margin-top: 15px;
+}
+
+.product-image {
+    height: 180px;
+    display: block;
+    margin: auto;
+    padding-left: 92.5px;
+    padding-right: 92.5px;
+    border: solid 1px white;
+}
+
+.view-area {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+}
+
+.view-more {
+    font-size: 18px;
+    border: solid 1px white;
+    padding: 10px 65px;
+}
+
+.brand-name {
+    font-size: 14px;
+    text-decoration: underline;
+    padding-bottom: 6px;
+}
+
+.about-comment {
+    padding-top: 16px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contact-view {
+    font-size: 18px;
+    border: solid 1px white;
+    padding: 10px 25px;
+}
+
+.contact-image-area {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.contact-image {
+    height: 180px;
+    display: block;
+    margin: auto;
+    border: solid 1px white;
+}

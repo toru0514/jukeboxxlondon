@@ -76,7 +76,7 @@ function HomePage () {
               alt="image"/>
           </div>
         </div>
-        <div className={cx('contact-area')}>
+        <div>
           <p className={cx('title-com')}>
             CONTACT
           </p>
