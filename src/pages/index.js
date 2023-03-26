@@ -74,6 +74,7 @@ function HomePage () {
               className={cx('gallery-image')}
               src={'/images/gallery.jpg'}
               alt="gallery"/>
+            <p className={cx('gallery-comment')}>Coming soon… !</p>
           </div>
         </div>
         <div>
