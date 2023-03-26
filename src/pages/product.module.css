@@ -107,16 +107,76 @@
     position: absolute;
     bottom: -91%;
     left: 20px;
-    /*transform: translate(-27%, 0%);*/
     transform: rotate(45deg)
 }
 
-.basic-price {
+.basic-price1 {
+    padding-left: 27px;
     font-size: 20px;
     text-align: center;
 }
 
-.custom-price {
+.basic-price2 {
+    padding-left: 50px;
     font-size: 20px;
     text-align: center;
+}
+
+.custom-price1 {
+    padding-left: 27px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.custom-price2 {
+    padding-left: 21px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.price-style {
+    padding-top: 5px;
+    display: flex;
+    text-align: center;
+}
+
+.jblbm-image {
+    width: 220px;
+
+}
+
+.jblxbm-style {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.raiders-comment {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 6px;
+    margin: 20px;
+    border: solid 1px white;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.size-image {
+    padding-top: 5px;
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+
+.size-comment {
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.color-image {
+    margin-top: 10px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    width: 60px;
+    border: solid 1px white;
 }
