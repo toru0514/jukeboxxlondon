@@ -23,6 +23,7 @@ const ContactPage = () => {
             <label htmlFor="content">Description</label>
             <textarea
               name="content"
+              placeholder="※サイズやワッペンの文字などを連絡いただけるとスムーズです。その他、追加のワッペンなど、カスタムについてもご相談ください。"
               rows="10"
               required
             />

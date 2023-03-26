@@ -1,10 +1,14 @@
 import Head from 'next/head'
+import { HamburgerButton } from '../components/HamburgerButton'
+import { HamburgerMenu } from '../components/HamburgerMenu'
 import { Link } from '../components/Link'
+import { useState } from 'react'
 import { footerIcons, shopIcons, shopTitle } from '../data'
 import './_app.css'
 import '../assets/styles/reset.css'
 
 export default function MyApp ({ Component, pageProps }) {
+  const [isExpanded, setIsExpanded] = useState(false)
 
   return (
     <>
@@ -53,6 +57,14 @@ export default function MyApp ({ Component, pageProps }) {
               />
             </a>
           ))}
+          <HamburgerButton onClick={() => setIsExpanded(!isExpanded)} expanded={isExpanded}/>
+          <HamburgerMenu expanded={isExpanded}>
+            <HamburgerMenu.Item to="/">Home</HamburgerMenu.Item>
+            <HamburgerMenu.Item to="/aboutus">ABOUT US</HamburgerMenu.Item>
+            <HamburgerMenu.Item to="/product">PRODUCT</HamburgerMenu.Item>
+            <HamburgerMenu.Item to="/store">STORE</HamburgerMenu.Item>
+            <HamburgerMenu.Item to="/contact">CONTACT</HamburgerMenu.Item>
+          </HamburgerMenu>
         </div>
       </header>
       <main>
