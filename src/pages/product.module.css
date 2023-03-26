@@ -38,7 +38,7 @@
     width: 390px;
     font-size: 22px;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     left: 135px;
     transform: translate(-27%, 0%);
 }
@@ -96,7 +96,7 @@
     font-size: 14px;
     position: absolute;
     bottom: -28%;
-    left: 0px;
+    left: 0;
     transform: translate(-27%, 0%);
 }
 
