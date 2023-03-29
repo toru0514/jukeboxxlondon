@@ -33,7 +33,7 @@ function HomePage () {
           </p>
           <p className={cx('about-comment2')}>
             ROCKERS文化の象徴である、ライダースジャケットに鋲やワッペン等を取り付け、唯一無二のオリジナルライダースを製作する。
-            そんな文化を継承する思いを込めて、ロッカーズ文化のある名古屋の地で立ち上げたブランドとなります。
+            妥協せず拘りを詰め込んみ、全力で立ち上げたブランドとなります。
           </p>
           <div className={cx('view-area')}>
             <a className={cx('view-more')}
