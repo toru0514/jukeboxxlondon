@@ -1,5 +1,6 @@
 import styles from './index.module.css'
 import classNames from 'classnames/bind'
+import Slider from '../components/Slider'
 
 const cx = classNames.bind(styles)
 
@@ -70,11 +71,7 @@ function HomePage () {
             GALLERY
           </p>
           <div className={cx('gallery-image-area')}>
-            <img
-              className={cx('gallery-image')}
-              src={'/images/gallery.jpg'}
-              alt="gallery"/>
-            <p className={cx('gallery-comment')}>Coming soon… !</p>
+            <Slider/>
           </div>
         </div>
         <div>

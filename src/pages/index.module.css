@@ -82,6 +82,7 @@
 
 .gallery-image-area {
     margin-top: 15px;
+    text-align: center;
 }
 
 .gallery-image {
@@ -107,9 +108,4 @@
     display: block;
     margin: auto;
     border: solid 1px white;
-}
-
-.gallery-comment {
-    margin-left: 50%;
-    text-align: center;
 }
