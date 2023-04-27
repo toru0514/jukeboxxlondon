@@ -94,7 +94,7 @@ const productPage = () => {
         <p>JUKEBOXX LONDON × BLACK MARKET</p>
       </div>
       <div className={cx('raiders-comment')}>
-        <p>ライダースジャケットにていては<br/>BLACK MARKET様とのコラボ商品になります。<br/><br/>BLACK MARKET様オリジナルのライダースジャケットをベースに使用し、カスタムさせて頂いております。
+        <p>ライダースジャケットについては<br/>BLACK MARKET様とのコラボ商品になります。<br/><br/>BLACK MARKET様オリジナルのライダースジャケットをベースに使用し、カスタムさせて頂いております。
         </p>
         <br/>
         <p>BLACK MARKET<br/>「オリジナルライダースジャケット」</p>
