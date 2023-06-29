@@ -26,7 +26,7 @@ function HomePage () {
           </p>
           <img
             className={cx('about-image')}
-            src={'/images/aboutus.jpeg'}
+            src={'/images/aboutus.png'}
             alt="aboutus"/>
           <p className={cx('about-comment')}>
             私たちは、ROCKERS文化を土台とした、<br/>
